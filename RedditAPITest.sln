@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditAPITest", "RedditAPITest\RedditAPITest.csproj", "{A160A979-1734-44CC-ACA4-27E1E5FF7420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A160A979-1734-44CC-ACA4-27E1E5FF7420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A160A979-1734-44CC-ACA4-27E1E5FF7420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A160A979-1734-44CC-ACA4-27E1E5FF7420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A160A979-1734-44CC-ACA4-27E1E5FF7420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C75419E2-07BC-4719-B809-51CE4456059E}
+	EndGlobalSection
+EndGlobal

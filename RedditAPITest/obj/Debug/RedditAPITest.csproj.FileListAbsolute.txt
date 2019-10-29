@@ -1,0 +1,2 @@
+C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\obj\Debug\RedditAPITest.csprojAssemblyReference.cache
+C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\obj\Debug\RedditAPITest.csproj.CoreCompileInputs.cache
