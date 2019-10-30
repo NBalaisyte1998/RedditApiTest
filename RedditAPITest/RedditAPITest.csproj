@@ -65,14 +65,13 @@
     <Compile Include="RedditAPI_Service\HTTP_Manager\RedditCallManager.cs" />
     <Compile Include="RedditAPI_Service\RedditService.cs" />
     <Compile Include="RedditConfig.cs" />
+    <Compile Include="Test\RedditTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Test\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
