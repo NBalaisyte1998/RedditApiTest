@@ -21,5 +21,10 @@ namespace RedditAPITest.Test
         {
             Assert.AreEqual("Listing", redditService.redditDTO.redditApiRoot.kind);
         }
+        [Test]
+        public void ModhashCheck()
+        {
+            Assert.AreEqual("",redditService.redditDTO.redditApiRoot.data.modhash);
+        }
     }
 }
