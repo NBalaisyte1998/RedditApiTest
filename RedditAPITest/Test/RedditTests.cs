@@ -26,5 +26,11 @@ namespace RedditAPITest.Test
         {
             Assert.AreEqual("",redditService.redditDTO.redditApiRoot.data.modhash);
         }
+        [Test]
+        public void DistCheck()
+        {
+            Assert.AreEqual(25, redditService.redditDTO.redditApiRoot.data.dist);
+        }
     }
+
 }
