@@ -1,4 +1,3 @@
-C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\obj\Debug\RedditAPITest.csprojAssemblyReference.cache
 C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\obj\Debug\RedditAPITest.csproj.CoreCompileInputs.cache
 C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\bin\Debug\NUnit3.TestAdapter.dll
 C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\bin\Debug\NUnit3.TestAdapter.pdb

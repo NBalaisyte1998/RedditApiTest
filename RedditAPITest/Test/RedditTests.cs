@@ -31,6 +31,19 @@ namespace RedditAPITest.Test
         {
             Assert.AreEqual(25, redditService.redditDTO.redditApiRoot.data.dist);
         }
+        [Test]
+        public void Kind1Check()
+        {
+           
+            Assert.AreEqual("t3", redditService.redditDTO.redditApiRoot.data.children[0].kind);
+        }
+        //[Test]
+        //public void SubredditCheck()
+        //{ 
+
+        //    Assert.AreEqual("neuro", redditService.redditDTO.redditApiRoot.data.children[0].data.subreddit);
+        //}
+
     }
 
 }
