@@ -37,7 +37,7 @@ namespace RedditAPITest.Test
             string[] correctKind = new string[]
             { "t1", "t2", "t3", "t4", "t5"};
 
-            Assert.Contains("t3", redditService.redditDTO.redditApiRoot.data.children[0].kind, correctKind);
+            Assert.Contains(redditService.redditDTO.redditApiRoot.data.children[0].kind, correctKind);
         }
         //[Test]
         //public void SubredditCheck()
