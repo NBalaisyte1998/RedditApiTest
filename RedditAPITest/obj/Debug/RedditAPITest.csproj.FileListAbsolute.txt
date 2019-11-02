@@ -16,3 +16,4 @@ C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\bin\Debug\RestSharp
 C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\obj\Debug\RedditAPITest.csproj.CopyComplete
 C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\obj\Debug\RedditAPITest.exe
 C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\obj\Debug\RedditAPITest.pdb
+C:\Users\Nora\Desktop\C#Practise\RedditAPITest\RedditAPITest\obj\Debug\RedditAPITest.csprojAssemblyReference.cache
