@@ -34,8 +34,10 @@ namespace RedditAPITest.Test
         [Test]
         public void Kind1Check()
         {
-           
-            Assert.AreEqual("t3", redditService.redditDTO.redditApiRoot.data.children[0].kind);
+            string[] correctKind = new string[]
+            { "t1", "t2", "t3", "t4", "t5"};
+
+            Assert.Contains("t3", redditService.redditDTO.redditApiRoot.data.children[0].kind, correctKind);
         }
         //[Test]
         //public void SubredditCheck()
