@@ -39,12 +39,18 @@ namespace RedditAPITest.Test
 
             Assert.Contains(redditService.redditDTO.redditApiRoot.data.children[0].kind, correctKind);
         }
-        //[Test]
-        //public void SubredditCheck()
-        //{ 
+        [Test]
+        public void Aprroved_at_UTC_Check()
+        {
 
-        //    Assert.AreEqual("neuro", redditService.redditDTO.redditApiRoot.data.children[0].data.subreddit);
-        //}
+            Assert.IsNull(redditService.redditDTO.redditApiRoot.data.children[0].data.approved_at_utc);
+        }
+        [Test]
+        public void SubredditCheck()
+        {
+
+            Assert.AreEqual("neuro", redditService.redditDTO.redditApiRoot.data.children[0].data.subreddit);
+        }
 
     }
 
