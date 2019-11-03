@@ -51,6 +51,49 @@ namespace RedditAPITest.Test
 
             Assert.AreEqual("neuro", redditService.redditDTO.redditApiRoot.data.children[0].data.subreddit);
         }
+        [Test]
+        public void SelfTextCheck()
+        {
+
+            Assert.IsNotNull(redditService.redditDTO.redditApiRoot.data.children[0].data.selftext);
+        }
+        [Test]
+        public void AuthorCheck()
+        {
+            string authorreferencelenght = redditService.redditDTO.redditApiRoot.data.children[0].data.author_fullname.ToString();
+            Assert.AreEqual(11, authorreferencelenght.Length);
+        }
+        [Test]
+        public void SavedCheck()
+        {
+            Assert.IsFalse(redditService.redditDTO.redditApiRoot.data.children[0].data.saved);
+        }
+        [Test]
+        public void Mod_reason_titleCheck()
+        {
+
+            Assert.IsNull(redditService.redditDTO.redditApiRoot.data.children[0].data.mod_reason_title);
+        }
+        [Test]
+        public void GildedCheck()
+        {
+
+            Assert.AreEqual(0,redditService.redditDTO.redditApiRoot.data.children[0].data.gilded);
+        }
+        [Test]
+        public void ClickedCheck()
+        {
+
+            Assert.IsFalse(redditService.redditDTO.redditApiRoot.data.children[0].data.clicked);
+        }
+        [Test]
+        public void TitleCheck()
+        {
+
+            Assert.IsNotNull(redditService.redditDTO.redditApiRoot.data.children[0].data.title);
+        }
+
+
 
     }
 
