@@ -31,10 +31,10 @@ namespace RedditAPITest.RedditAPI_Service.Data_Handling
         public bool clicked { get; set; }
         public string title { get; set; }
         public IList<List1> link_flair_richtext { get; set; }
-        //public string subreddit_name_prefixed { get; set; }
-        //public bool hidden { get; set; }
-        //public string pwls { get; set; }
-        //public string link_flair_css_class { get; set; }
+        public string subreddit_name_prefixed { get; set; }
+        public bool hidden { get; set; }
+        public string pwls { get; set; }
+        public string link_flair_css_class { get; set; }
         //public int downs { get; set; }
         //public bool hide_score { get; set; }
         //public string name { get; set; }

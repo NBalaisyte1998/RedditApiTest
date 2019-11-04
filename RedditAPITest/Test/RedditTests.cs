@@ -92,6 +92,36 @@ namespace RedditAPITest.Test
 
             Assert.IsNotNull(redditService.redditDTO.redditApiRoot.data.children[0].data.title);
         }
+        [Test]
+        public void List1Check()
+        {
+
+            Assert.IsEmpty(redditService.redditDTO.redditApiRoot.data.children[0].data.link_flair_richtext);
+        }
+        [Test]
+        public void SubredditprefixCheck()
+        {
+
+            Assert.AreEqual("r/neuro",redditService.redditDTO.redditApiRoot.data.children[0].data.subreddit_name_prefixed);
+        }
+        [Test]
+        public void HiddenCheck()
+        {
+
+            Assert.IsFalse(redditService.redditDTO.redditApiRoot.data.children[0].data.hidden);
+        }
+        [Test]
+        public void PwlsCheck()
+        {
+
+            Assert.IsNull(redditService.redditDTO.redditApiRoot.data.children[0].data.pwls);
+        }
+        [Test]
+        public void LinkFlairClassCheck()
+        {
+
+            Assert.IsNull(redditService.redditDTO.redditApiRoot.data.children[0].data.link_flair_css_class);
+        }
 
 
 
