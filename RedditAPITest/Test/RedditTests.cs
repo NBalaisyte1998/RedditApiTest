@@ -122,6 +122,45 @@ namespace RedditAPITest.Test
 
             Assert.IsNull(redditService.redditDTO.redditApiRoot.data.children[0].data.link_flair_css_class);
         }
+        [Test]
+        public void DownsCheck()
+        {
+
+            Assert.IsNotNull(redditService.redditDTO.redditApiRoot.data.children[0].data.downs);
+        }
+        [Test]
+        public void HideScoreCheck()
+        {
+
+            Assert.IsFalse(redditService.redditDTO.redditApiRoot.data.children[0].data.hidden);
+        }
+        [Test]
+        public void NameCheck()
+        {
+
+            string namelenght = redditService.redditDTO.redditApiRoot.data.children[0].data.name.ToString();
+            Assert.AreEqual(9, namelenght.Length);
+        }
+        [Test]
+        public void QuarantineCheck()
+        {
+            Assert.IsFalse(redditService.redditDTO.redditApiRoot.data.children[0].data.quarantine);
+        }
+        [Test]
+        public void TextcolorCheck()
+        {
+            Assert.IsNotNull(redditService.redditDTO.redditApiRoot.data.children[0].data.link_flair_text_color);
+        }
+        [Test]
+        public void BackgroundcolorCheck()
+        {
+            Assert.IsNull(redditService.redditDTO.redditApiRoot.data.children[0].data.author_flair_background_color);
+        }
+        [Test]
+        public void SubredditTypeCheck()
+        {
+            Assert.AreEqual("public",redditService.redditDTO.redditApiRoot.data.children[0].data.subreddit_type);
+        }
 
 
 

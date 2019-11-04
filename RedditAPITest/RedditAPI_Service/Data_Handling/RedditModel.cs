@@ -35,14 +35,14 @@ namespace RedditAPITest.RedditAPI_Service.Data_Handling
         public bool hidden { get; set; }
         public string pwls { get; set; }
         public string link_flair_css_class { get; set; }
-        //public int downs { get; set; }
-        //public bool hide_score { get; set; }
-        //public string name { get; set; }
-        //public bool quarantine { get; set; }
-        //public string link_flair_text_color { get; set; }
-        //public string author_flair_background_color { get; set; }
-        //public string subreddit_type { get; set; }
-        //public int ups { get; set; }
+        public int downs { get; set; }
+        public bool hide_score { get; set; }
+        public string name { get; set; }
+        public bool quarantine { get; set; }
+        public string link_flair_text_color { get; set; }
+        public string author_flair_background_color { get; set; }
+        public string subreddit_type { get; set; }
+        public int ups { get; set; }
         //public int total_awards_received { get; set; }
         //public Media_embed media_Embed { get; set; }
         //public string author_flair_template_id { get; set; }
